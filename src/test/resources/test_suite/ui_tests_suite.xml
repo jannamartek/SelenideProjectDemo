@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="UI Testing Suite">
+    <test name="Tests on Chrome" parallel="classes" thread-count="3">
+        <classes>
+            <class name="com.jannamartek.ui_page_object_tests.TodoistHomePageTest"/>
+            <class name="com.jannamartek.ui_page_object_tests.TodoistLoginPageTest"/>
+            <class name="com.jannamartek.ui_page_object_tests.TodoistHelpCenterPageTest"/>
+            <class name="com.jannamartek.ui_page_object_tests.TodolistPersonalAccountMainPageTest"/>
+            <class name="com.jannamartek.ui_page_object_tests.TodoistAccountSettingsPageTest"/>
+        </classes>
+    </test>
+</suite>
